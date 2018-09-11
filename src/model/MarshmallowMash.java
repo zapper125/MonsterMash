@@ -31,8 +31,14 @@ public class MarshmallowMash
 	
 	public String toString()
 	{
-		String description = "";
-
+	
+		String description = "This monster is named " + name
+								+" and it has " + legCount + " legs"
+								+" it also has " + armCount + " arms"
+								+" it is " + hasNoses + " about his nose I dont know where you heard else where"
+								+" lastly he has " + armCount + " arms" 
+								+" it's favorite spooky thing to say is"
+								+" boo";
 		return description;
 	}
 }
