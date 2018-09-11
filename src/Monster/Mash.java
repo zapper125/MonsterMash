@@ -1,8 +1,15 @@
 package Monster;
 
+import model.MarshmallowMash; 
+
 public class Mash
 {
-	public void start() {
-int X=5;
+	//Data member section
+	//Declaration section
+	private MarshmallowMash myMonster;
+	
+	public void start()
+	{
+		
 	}
 }
