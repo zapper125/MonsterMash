@@ -8,8 +8,15 @@ public class Mash
 	//Declaration section
 	private MarshmallowMash myMonster;
 	
+	//Constructors initialize data members!
+	public Mash()
+	{
+		myMonster = new MarshmallowMash();
+		
+	}
+	
 	public void start()
 	{
-		
+		System.out.print(myMonster);
 	}
 }
