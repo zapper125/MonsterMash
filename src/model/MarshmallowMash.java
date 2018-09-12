@@ -14,11 +14,6 @@ public class MarshmallowMash
 		// default constructor
 		// generally boring and not as helpful
 	}
-
-	//public MarshmallowMash(String name)
-	//{
-	//	this.name = name;
-	//}
 	
 	public MarshmallowMash(String name, double legCount, int eyeCount , boolean hasNose, int arms)
 	{
@@ -28,6 +23,62 @@ public class MarshmallowMash
 		this.hasNoses = hasNose;
 		this.armCount = arms; 
 	}
+	//==============Setter==========
+	
+	public String getName()
+	{
+		return name;
+	}
+	
+	public double getLegCount()
+	{
+		return legCount;
+	}
+	
+	public int getEyeCount()
+	{
+		return eyeCount;
+	}
+	
+	public boolean getHasNoses()
+	{
+		return hasNoses;
+	}
+	
+	public int getArms()
+
+	{
+		return armCount; 
+	}
+	
+	//================Setters==============
+	
+	public void setName(String name)
+	{
+		this.name = name; 
+	}
+	
+	public void setLegCount(double legCount)
+	{
+		this.legCount = legCount;  
+	}
+	
+	public void setEyeCount(int eyeCount)
+	{
+		this.eyeCount = eyeCount;
+	}
+	
+	public void setHasNoses(boolean hasNoses)
+	{
+		this.hasNoses = hasNoses;
+	}
+	
+	public void setArmCount(int ArmCount)
+	{
+		this.armCount = armCount; 
+	}
+	
+	//==============Thing===========
 	
 	public String toString()
 	{
