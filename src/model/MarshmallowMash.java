@@ -37,7 +37,7 @@ public class MarshmallowMash
 								+" it also has " + armCount + " arms"
 								+" it is " + hasNoses + " about his nose I dont know where you heard else where"
 								+" lastly he has " + armCount + " arms" 
-								+" it's favorite spooky thing to say is"
+								+" it's favorite spooky thing to say is minion"
 								+" boo";
 		return description;
 	}
