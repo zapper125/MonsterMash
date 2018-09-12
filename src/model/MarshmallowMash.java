@@ -45,7 +45,7 @@ public class MarshmallowMash
 		return hasNoses;
 	}
 	
-	public int getArms()
+	public int getArmCount()
 
 	{
 		return armCount; 
@@ -73,7 +73,7 @@ public class MarshmallowMash
 		this.hasNoses = hasNoses;
 	}
 	
-	public void setArmCount(int ArmCount)
+	public void setArmCount(int armCount)
 	{
 		this.armCount = armCount; 
 	}
@@ -93,3 +93,4 @@ public class MarshmallowMash
 		return description;
 	}
 }
+
